@@ -1,0 +1,26 @@
+{
+  "name": "youtube-entrevista-01",
+  "version": "1.0.0",
+  "description": "A partir do envio deste email começa a contar seu prazo de resolução.  É importante que você nos responda o email com o teste resolvido em no máximo 3 horas. Caso não tenha conseguido resolver todo o teste, deve enviar o que conseguiu produzir.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diariodonoob/youtube-entrevista-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diariodonoob/youtube-entrevista-01/issues"
+  },
+  "homepage": "https://github.com/diariodonoob/youtube-entrevista-01#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.6"
+  }
+}
