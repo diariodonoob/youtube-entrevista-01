@@ -13,7 +13,6 @@ const createPost = response => {
     if ( response.data.length > 0 ) response.data.map(value => Post.create(value))
 }
 
-
 axios(config)
     .then(createPost)
     .catch(err => console.log(err))
